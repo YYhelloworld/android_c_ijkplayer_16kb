@@ -1,0 +1,505 @@
+js@jiasaideMac-mini Y06Project % adb logcat | grep -E "IJKMEDIA|amc|MediaCodec"
+07-22 10:11:19.405   988 14520 E MediaCodec: Media Quality Service not found.
+07-22 10:11:19.408   988 14521 I MediaCodec: MediaCodec will operate in async mode
+07-22 10:11:19.408   988 14520 D MediaCodec: keep callback message for reclaim
+07-22 10:11:20.731   988 14521 I MediaCodec: Codec shutdown complete
+07-22 10:12:17.975 15130 15130 D J4A     : J4ALoader: OK: 'android.media.MediaCodec$BufferInfo' loaded
+07-22 10:12:17.976 15130 15130 D J4A     : J4ALoader: OK: 'android.media.MediaCodec' loaded
+07-22 10:12:17.977 15130 15130 D IJKMEDIA: ijkmediaplayer version : 
+07-22 10:12:17.977 15130 15130 D IJKMEDIA: IjkMediaPlayer_native_profileBegin
+07-22 10:12:17.977 15130 15130 D IJKMEDIA: monstartup: libijkplayer.so
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: IjkMediaPlayer_native_init
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: IjkMediaPlayer_native_setup
+07-22 10:13:26.678 15130 15130 I IJKMEDIA: av_version_info: ff4.0--ijk0.8.8--20210426--001
+07-22 10:13:26.678 15130 15130 I IJKMEDIA: ijk_version_info: 
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: ffpipeline_create_from_android()
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: ijkmp_set_inject_opaque(0x3946)
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: ijkmp_set_inject_opaque()=void
+07-22 10:13:26.678 15130 15130 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque(0x3946)
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque()=void
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: ffpipeline_set_mediacodec_select_callback
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()=void
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: IjkMediaPlayer_native_setLogLevel(4)
+07-22 10:13:26.679 15130 15130 D IJKMEDIA: moncleanup
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.680 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: IjkMediaPlayer_setDataSourceAndHeaders
+07-22 10:13:26.681 15130 15130 V IJKMEDIA: setDataSource: path rtsp://192.168.42.1/ch0/stream0
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")
+07-22 10:13:26.681 15130 15130 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")=0
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: IjkMediaPlayer_setVideoSurface
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: ffpipeline_set_surface()
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)=void
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: IjkMediaPlayer_prepareAsync
+07-22 10:13:26.682 15130 15130 D IJKMEDIA: ijkmp_prepare_async()
+07-22 10:13:26.682 15130 15130 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: ===== versions =====
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: ijkplayer    : 
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: FFmpeg       : ff4.0--ijk0.8.8--20210426--001
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: libavutil    : 56.14.100
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: libavcodec   : 58.18.100
+07-22 10:13:26.682 15130 15130 I IJKMEDIA: libavformat  : 58.12.100
+07-22 10:13:26.682 15130 15672 I IJKMEDIA: SDL_RunThread: [15672] ff_msg_loop
+07-22 10:13:26.683 15130 15672 D IJKMEDIA: message_loop
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: libswscale   : 5.1.100
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: libswresample: 3.1.100
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: ===== options =====
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : packet-buffering             = 0
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : opensles                     = 0
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : overlay-format               = 842225234
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : framedrop                    = 1
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : no-sync                      = 1
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : mediacodec                   = 1
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : mediacodec-auto-rotate       = 1
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: player-opts : show_status                  = 1
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: format-opts : ijkapplication               = 0xb4000075e4b02740
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: format-opts : ijkiomanager                 = 0xb400007524aabf00
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: format-opts : http-detect-range-support    = 0
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: format-opts : fflags                       = nobuffer
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: format-opts : rtsp_transport               = tcp
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: codec-opts  : skip_loop_filter             = 48
+07-22 10:13:26.683 15130 15130 I IJKMEDIA: ===================
+07-22 10:13:26.683 15130 15672 D IJKMEDIA: FFP_MSG_FLUSH:
+07-22 10:13:26.683 15130 15674 I IJKMEDIA: SDL_RunThread: [15674] ff_vout
+07-22 10:13:26.683 15130 15130 D IJKMEDIA: ijkmp_prepare_async()=0
+07-22 10:13:26.683 15130 15675 I IJKMEDIA: SDL_RunThread: [15675] ff_read
+07-22 10:13:26.683 15130 15675 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 10:13:26.691 15130 15675 I IJKMEDIA: tcp did open uri = tcp://192.168.42.1:554?timeout=0, ip = 
+07-22 10:13:26.713 15130 15675 E IJKMEDIA: Option ijkapplication not found.
+07-22 10:13:26.713 15130 15672 D IJKMEDIA: FFP_MSG_OPEN_INPUT:
+07-22 10:13:27.925 15130 15672 D IJKMEDIA: FFP_MSG_FIND_STREAM_INFO:
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: max_frame_duration: 10.000
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: Input #0, rtsp, from 'rtsp://192.168.42.1/ch0/stream0':
+07-22 10:13:27.926 15130 15675 I IJKMEDIA:   Metadata:
+07-22 10:13:27.926 15130 15675 I IJKMEDIA:     title           : 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: Ambarella streaming
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA:     comment         : 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: Ambarella streaming
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA:   Duration: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: N/A
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: , start: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 0.371700
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: , bitrate: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: N/A
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA:     Stream #0:0
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: : Video: h264, yuvj420p(pc, bt709, progressive), 720x720 [SAR 1:1 DAR 1:1]
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: , 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 25 fps, 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 25 tbr, 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 90k tbn, 
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 50 tbc
+07-22 10:13:27.926 15130 15675 I IJKMEDIA: 
+07-22 10:13:27.930 15130 15675 I IJKMEDIA: ijkplayer: trying MediaCodec decoder (mediacodec_all_videos=0, avc=1, hevc=0, mpeg2=0)
+07-22 10:13:27.930 15130 15675 D IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec()
+07-22 10:13:27.930 15130 15675 I IJKMEDIA: API-Level: 36
+07-22 10:13:27.930 15130 15675 I IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec: MediaCodec: H264_MAIN: enabled
+07-22 10:13:27.930 15130 15675 I IJKMEDIA: AMediaFormat: video/avc, 720x720
+07-22 10:13:27.930 15130 15675 D IJKMEDIA: SDL_AMediaFormatJava_createVideoFormat
+07-22 10:13:27.930 15130 15675 E IJKMEDIA: csd-0: naked
+07-22 10:13:27.930 15130 15675 I IJKMEDIA: amc: rotate notify: 0
+07-22 10:13:27.930 15130 15675 D IJKMEDIA: ffpipeline_select_mediacodec_l
+07-22 10:13:27.930 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_ROTATION_CHANGED: 0
+07-22 10:13:27.970 15130 15675 I IjkMediaCodecInfo:  Unknown Profile Level 0 (524288,262144)
+07-22 10:13:27.971 15130 15675 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 10:13:27.971 15130 15675 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 10:13:27.971 15130 15675 E IJKMEDIA: mediacodec_select_callback: onSelectCodec failed
+07-22 10:13:27.971 15130 15675 E IJKMEDIA: amc: no suitable codec
+07-22 10:13:27.971 15130 15675 I IJKMEDIA: ijkplayer: falling back to ffplay software decoder
+07-22 10:13:27.971 15130 15675 I IJKMEDIA: VideoCodec: avcodec, h264
+07-22 10:13:27.971 15130 15675 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 10:13:27.971 15130 15675 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 10:13:27.971 15130 15675 I IJKMEDIA: ijkplayer: no_sync mode enabled, buffer limits: max_buffer_size=256KB, min_frames=2, hwm=50ms
+07-22 10:13:27.971 15130 15691 I IJKMEDIA: SDL_RunThread: [15691] ff_video_dec
+07-22 10:13:27.971 15130 15672 D IJKMEDIA: FFP_MSG_COMPONENT_OPEN:
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: FFP_MSG_SAR_CHANGED: 1, 1
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: ijkmp_get_msg: FFP_MSG_PREPARED
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: FFP_MSG_PREPARED:
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_ROTATION_CHANGED: 0
+07-22 10:13:27.972 15130 15130 D IJKMEDIA: IjkMediaPlayer_start
+07-22 10:13:27.972 15130 15130 D IJKMEDIA: ijkmp_start()
+07-22 10:13:27.972 15130 15130 D IJKMEDIA: ijkmp_start()=0
+07-22 10:13:27.972 15130 15672 D IJKMEDIA: ijkmp_get_msg: FFP_REQ_START
+07-22 10:13:28.684 15130 15691 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b1d7b0)
+07-22 10:13:28.684 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:13:28.687 15130 15691 D IJKMEDIA: Video: first frame decoded
+07-22 10:13:28.687 15130 15674 D IJKMEDIA: ANativeWindow_setBuffersGeometry: w=1080, h=1080, f=(0x1) => w=720, h=720, f=RV32(0x32335652)
+07-22 10:13:28.687 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_DECODED_START:
+07-22 10:13:28.689 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_RENDERING_START:
+07-22 10:13:28.729 15130 15691 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b1d7b0)
+07-22 10:13:28.729 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:13:28.764 15130 15691 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b1d7b0)
+07-22 10:13:28.764 15130 15672 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:19:58.133 15130 15675 I IJKMEDIA: ffp_toggle_buffering: completed: OK
+07-22 10:19:58.133 15130 15672 D IJKMEDIA: ijkmp_get_msg: FFP_MSG_COMPLETED
+07-22 10:19:58.133 15130 15672 D IJKMEDIA: FFP_MSG_COMPLETED:
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ijkmp_stop()
+07-22 10:19:58.134 15130 15674 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [15674]
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ijkmp_stop()=0
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: IjkMediaPlayer_release
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ijkmp_set_android_surface(surface=0x0)
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ffpipeline_set_surface()
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ijkmp_set_android_surface(surface=0x0)=void
+07-22 10:19:58.134 15130 15130 D IJKMEDIA: ijkmp_shutdown_l()
+07-22 10:19:58.135 15130 15691 I IJKMEDIA: convert image convert_frame_count = 0
+07-22 10:19:58.135 15130 15691 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [15691]
+07-22 10:19:58.135 15130 15672 D IJKMEDIA: message_loop exit
+07-22 10:19:58.135 15130 15672 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [15672]
+07-22 10:19:58.244 15130 15675 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [15675]
+07-22 10:19:58.252 15130 15130 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614aa4820)
+07-22 10:19:58.253 15130 15130 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614aa6050)
+07-22 10:19:58.253 15130 15130 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614aa4670)
+07-22 10:19:58.253 15130 15130 D IJKMEDIA: ijkmp_shutdown_l()=void
+07-22 10:19:58.253 15130 15130 D IJKMEDIA: ijkmp_dec_ref(): ref=0
+07-22 10:19:58.253 15130 15130 D IJKMEDIA: ijkmp_shutdown_l()
+07-22 10:19:58.253 15130 15130 D IJKMEDIA: ijkmp_shutdown_l()=void
+07-22 10:45:45.856   988 20083 E MediaCodec: Media Quality Service not found.
+07-22 10:45:45.858   988 20084 I MediaCodec: MediaCodec will operate in async mode
+07-22 10:45:45.858   988 20083 D MediaCodec: keep callback message for reclaim
+07-22 10:45:47.132   988 20084 I MediaCodec: Codec shutdown complete
+07-22 10:46:18.428 20555 20555 D J4A     : J4ALoader: OK: 'android.media.MediaCodec$BufferInfo' loaded
+07-22 10:46:18.428 20555 20555 D J4A     : J4ALoader: OK: 'android.media.MediaCodec' loaded
+07-22 10:46:18.430 20555 20555 D IJKMEDIA: ijkmediaplayer version : 
+07-22 10:46:18.430 20555 20555 D IJKMEDIA: IjkMediaPlayer_native_profileBegin
+07-22 10:46:18.430 20555 20555 D IJKMEDIA: monstartup: libijkplayer.so
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: IjkMediaPlayer_native_init
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: IjkMediaPlayer_native_setup
+07-22 10:46:19.685 20555 20555 I IJKMEDIA: av_version_info: ff4.0--ijk0.8.8--20210426--001
+07-22 10:46:19.685 20555 20555 I IJKMEDIA: ijk_version_info: 
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: ffpipeline_create_from_android()
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: ijkmp_set_inject_opaque(0x3946)
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: ijkmp_set_inject_opaque()=void
+07-22 10:46:19.685 20555 20555 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque(0x3946)
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque()=void
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ffpipeline_set_mediacodec_select_callback
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()=void
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_native_setLogLevel(4)
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: moncleanup
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: IjkMediaPlayer_setDataSourceAndHeaders
+07-22 10:46:19.686 20555 20555 V IJKMEDIA: setDataSource: path rtsp://192.168.42.1/ch0/stream0
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")
+07-22 10:46:19.686 20555 20555 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")=0
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: IjkMediaPlayer_setVideoSurface
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: ffpipeline_set_surface()
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)=void
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: IjkMediaPlayer_prepareAsync
+07-22 10:46:19.687 20555 20555 D IJKMEDIA: ijkmp_prepare_async()
+07-22 10:46:19.687 20555 20555 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: ===== versions =====
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: ijkplayer    : 
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: FFmpeg       : ff4.0--ijk0.8.8--20210426--001
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: libavutil    : 56.14.100
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: libavcodec   : 58.18.100
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: libavformat  : 58.12.100
+07-22 10:46:19.687 20555 20629 I IJKMEDIA: SDL_RunThread: [20629] ff_msg_loop
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: libswscale   : 5.1.100
+07-22 10:46:19.687 20555 20629 D IJKMEDIA: message_loop
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: libswresample: 3.1.100
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: ===== options =====
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : packet-buffering             = 0
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : opensles                     = 0
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : overlay-format               = 842225234
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : framedrop                    = 1
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : no-sync                      = 1
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : mediacodec                   = 1
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : mediacodec-auto-rotate       = 1
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: player-opts : show_status                  = 1
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: format-opts : ijkapplication               = 0xb4000075e4ac7be0
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: format-opts : ijkiomanager                 = 0xb400007524aaa590
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: format-opts : http-detect-range-support    = 0
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: format-opts : fflags                       = nobuffer
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: format-opts : rtsp_transport               = tcp
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: codec-opts  : skip_loop_filter             = 48
+07-22 10:46:19.687 20555 20555 I IJKMEDIA: ===================
+07-22 10:46:19.687 20555 20629 D IJKMEDIA: FFP_MSG_FLUSH:
+07-22 10:46:19.688 20555 20630 I IJKMEDIA: SDL_RunThread: [20630] ff_vout
+07-22 10:46:19.688 20555 20555 D IJKMEDIA: ijkmp_prepare_async()=0
+07-22 10:46:19.688 20555 20631 I IJKMEDIA: SDL_RunThread: [20631] ff_read
+07-22 10:46:19.688 20555 20631 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 10:46:19.692 20555 20631 I IJKMEDIA: tcp did open uri = tcp://192.168.42.1:554?timeout=0, ip = 
+07-22 10:46:19.708 20555 20631 E IJKMEDIA: Option ijkapplication not found.
+07-22 10:46:19.708 20555 20629 D IJKMEDIA: FFP_MSG_OPEN_INPUT:
+07-22 10:46:21.085 20555 20631 I IJKMEDIA: max_frame_duration: 10.000
+07-22 10:46:21.085 20555 20631 I IJKMEDIA: Input #0, rtsp, from 'rtsp://192.168.42.1/ch0/stream0':
+07-22 10:46:21.085 20555 20631 I IJKMEDIA:   Metadata:
+07-22 10:46:21.085 20555 20631 I IJKMEDIA:     title           : 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: Ambarella streaming
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA:     comment         : 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: Ambarella streaming
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA:   Duration: 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: N/A
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: , start: 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: 0.537989
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: , bitrate: 
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: N/A
+07-22 10:46:21.086 20555 20631 I IJKMEDIA: 
+07-22 10:46:21.086 20555 20629 D IJKMEDIA: FFP_MSG_FIND_STREAM_INFO:
+07-22 10:46:21.087 20555 20631 I IJKMEDIA:     Stream #0:0
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: : Video: h264, yuvj420p(pc, bt709, progressive), 720x720 [SAR 1:1 DAR 1:1]
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: , 
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: 25 fps, 
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: 25 tbr, 
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: 90k tbn, 
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: 50 tbc
+07-22 10:46:21.087 20555 20631 I IJKMEDIA: 
+07-22 10:46:21.095 20555 20631 I IJKMEDIA: ijkplayer: trying MediaCodec decoder (mediacodec_all_videos=0, avc=1, hevc=0, mpeg2=0)
+07-22 10:46:21.095 20555 20631 D IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec()
+07-22 10:46:21.095 20555 20631 I IJKMEDIA: API-Level: 36
+07-22 10:46:21.095 20555 20631 I IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec: MediaCodec: H264_MAIN: enabled
+07-22 10:46:21.095 20555 20631 I IJKMEDIA: AMediaFormat: video/avc, 720x720
+07-22 10:46:21.096 20555 20631 D IJKMEDIA: SDL_AMediaFormatJava_createVideoFormat
+07-22 10:46:21.096 20555 20631 E IJKMEDIA: csd-0: naked
+07-22 10:46:21.096 20555 20631 I IJKMEDIA: amc: rotate notify: 0
+07-22 10:46:21.096 20555 20631 D IJKMEDIA: ffpipeline_select_mediacodec_l
+07-22 10:46:21.096 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_ROTATION_CHANGED: 0
+07-22 10:46:21.134 20555 20631 I IjkMediaCodecInfo:  Unknown Profile Level 0 (524288,262144)
+07-22 10:46:21.134 20555 20631 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 10:46:21.134 20555 20631 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 10:46:21.135 20555 20631 E IJKMEDIA: mediacodec_select_callback: onSelectCodec failed
+07-22 10:46:21.135 20555 20631 E IJKMEDIA: amc: no suitable codec
+07-22 10:46:21.135 20555 20631 I IJKMEDIA: ijkplayer: falling back to ffplay software decoder
+07-22 10:46:21.135 20555 20631 I IJKMEDIA: VideoCodec: avcodec, h264
+07-22 10:46:21.135 20555 20631 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 10:46:21.135 20555 20631 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 10:46:21.135 20555 20631 I IJKMEDIA: ijkplayer: no_sync mode enabled, buffer limits: max_buffer_size=256KB, min_frames=2, hwm=50ms
+07-22 10:46:21.135 20555 20646 I IJKMEDIA: SDL_RunThread: [20646] ff_video_dec
+07-22 10:46:21.135 20555 20629 D IJKMEDIA: FFP_MSG_COMPONENT_OPEN:
+07-22 10:46:21.135 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:46:21.135 20555 20629 D IJKMEDIA: FFP_MSG_SAR_CHANGED: 1, 1
+07-22 10:46:21.135 20555 20629 D IJKMEDIA: ijkmp_get_msg: FFP_MSG_PREPARED
+07-22 10:46:21.135 20555 20629 D IJKMEDIA: FFP_MSG_PREPARED:
+07-22 10:46:21.136 20555 20555 D IJKMEDIA: IjkMediaPlayer_start
+07-22 10:46:21.136 20555 20555 D IJKMEDIA: ijkmp_start()
+07-22 10:46:21.136 20555 20555 D IJKMEDIA: ijkmp_start()=0
+07-22 10:46:21.136 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_ROTATION_CHANGED: 0
+07-22 10:46:21.136 20555 20629 D IJKMEDIA: ijkmp_get_msg: FFP_REQ_START
+07-22 10:46:21.845 20555 20646 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b506b0)
+07-22 10:46:21.845 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:46:21.849 20555 20646 D IJKMEDIA: Video: first frame decoded
+07-22 10:46:21.849 20555 20630 D IJKMEDIA: ANativeWindow_setBuffersGeometry: w=1080, h=1080, f=(0x1) => w=720, h=720, f=RV32(0x32335652)
+07-22 10:46:21.849 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_DECODED_START:
+07-22 10:46:21.850 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_RENDERING_START:
+07-22 10:46:21.885 20555 20646 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b506b0)
+07-22 10:46:21.885 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:46:21.925 20555 20646 D IJKMEDIA: SDL_VoutFFmpeg_CreateOverlay(w=720, h=720, fmt=RV32(0x32335652, dp=0xb400007704b506b0)
+07-22 10:46:21.925 20555 20629 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ijkmp_stop()
+07-22 10:53:41.615 20555 20630 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [20630]
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ijkmp_stop()=0
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: IjkMediaPlayer_release
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ijkmp_set_android_surface(surface=0x0)
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ffpipeline_set_surface()
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ijkmp_set_android_surface(surface=0x0)=void
+07-22 10:53:41.615 20555 20555 D IJKMEDIA: ijkmp_shutdown_l()
+07-22 10:53:41.616 20555 20629 D IJKMEDIA: message_loop exit
+07-22 10:53:41.616 20555 20629 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [20629]
+07-22 10:53:41.617 20555 20646 I IJKMEDIA: convert image convert_frame_count = 0
+07-22 10:53:41.617 20555 20646 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [20646]
+07-22 10:53:41.641 20555 20631 I IJKMEDIA: SDL_JNI_DetachThreadEnv: [20631]
+07-22 10:53:41.646 20555 20555 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614a7bba0)
+07-22 10:53:41.647 20555 20555 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614a85e30)
+07-22 10:53:41.647 20555 20555 E IJKMEDIA: SDL_Overlay(ffmpeg): overlay_free_l(0xb400007614a7c020)
+07-22 10:53:41.647 20555 20555 D IJKMEDIA: ijkmp_shutdown_l()=void
+07-22 10:53:41.647 20555 20555 D IJKMEDIA: ijkmp_dec_ref(): ref=0
+07-22 10:53:41.647 20555 20555 D IJKMEDIA: ijkmp_shutdown_l()
+07-22 10:53:41.647 20555 20555 D IJKMEDIA: ijkmp_shutdown_l()=void
+07-22 11:46:58.511 27790 27790 D J4A     : J4ALoader: OK: 'android.media.MediaCodec$BufferInfo' loaded
+07-22 11:46:58.511 27790 27790 D J4A     : J4ALoader: OK: 'android.media.MediaCodec' loaded
+07-22 11:46:58.513 27790 27790 D IJKMEDIA: ijkmediaplayer version : 
+07-22 11:46:58.513 27790 27790 D IJKMEDIA: IjkMediaPlayer_native_profileBegin
+07-22 11:46:58.513 27790 27790 D IJKMEDIA: monstartup: libijkplayer.so
+07-22 11:47:21.559 27790 27790 D IJKMEDIA: IjkMediaPlayer_native_init
+07-22 11:47:21.559 27790 27790 D IJKMEDIA: IjkMediaPlayer_native_setup
+07-22 11:47:21.559 27790 27790 I IJKMEDIA: av_version_info: ff4.0--ijk0.8.8--20210426--001
+07-22 11:47:21.559 27790 27790 I IJKMEDIA: ijk_version_info: 
+07-22 11:47:21.559 27790 27790 D IJKMEDIA: ffpipeline_create_from_android()
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_set_inject_opaque(0x3946)
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_set_inject_opaque()=void
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque(0x3946)
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_set_ijkio_inject_opaque()=void
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ffpipeline_set_mediacodec_select_callback
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: ijkmp_android_set_mediacodec_select_callback()=void
+07-22 11:47:21.560 27790 27790 D IJKMEDIA: IjkMediaPlayer_native_setLogLevel(4)
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: moncleanup
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOption
+07-22 11:47:21.561 27790 27790 D IJKMEDIA: IjkMediaPlayer_setOptionLong
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: IjkMediaPlayer_setDataSourceAndHeaders
+07-22 11:47:21.562 27790 27790 V IJKMEDIA: setDataSource: path rtsp://192.168.42.1/ch0/stream0
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ijkmp_set_data_source(url="rtsp://192.168.42.1/ch0/stream0")=0
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: IjkMediaPlayer_setVideoSurface
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ffpipeline_set_surface()
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ijkmp_set_android_surface(surface=0x7fd9bd79fc)=void
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: IjkMediaPlayer_prepareAsync
+07-22 11:47:21.562 27790 27790 D IJKMEDIA: ijkmp_prepare_async()
+07-22 11:47:21.562 27790 27790 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 11:47:21.562 27790 27790 I IJKMEDIA: ===== versions =====
+07-22 11:47:21.562 27790 27790 I IJKMEDIA: ijkplayer    : 
+07-22 11:47:21.562 27790 27790 I IJKMEDIA: FFmpeg       : ff4.0--ijk0.8.8--20210426--001
+07-22 11:47:21.563 27790 28262 I IJKMEDIA: SDL_RunThread: [28262] ff_msg_loop
+07-22 11:47:21.563 27790 28262 D IJKMEDIA: message_loop
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: libavutil    : 56.14.100
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: libavcodec   : 58.18.100
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: libavformat  : 58.12.100
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: libswscale   : 5.1.100
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: libswresample: 3.1.100
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: ===== options =====
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : packet-buffering             = 0
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : opensles                     = 0
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : overlay-format               = 842225234
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : framedrop                    = 1
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : no-sync                      = 1
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : mediacodec                   = 1
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : mediacodec-auto-rotate       = 1
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: player-opts : show_status                  = 1
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: format-opts : ijkapplication               = 0xb4000075e4ab71a0
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: format-opts : ijkiomanager                 = 0xb400007524aabf00
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: format-opts : http-detect-range-support    = 0
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: format-opts : fflags                       = nobuffer
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: format-opts : rtsp_transport               = tcp
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: codec-opts  : skip_loop_filter             = 48
+07-22 11:47:21.563 27790 27790 I IJKMEDIA: ===================
+07-22 11:47:21.563 27790 28262 D IJKMEDIA: FFP_MSG_FLUSH:
+07-22 11:47:21.564 27790 27790 D IJKMEDIA: ijkmp_prepare_async()=0
+07-22 11:47:21.564 27790 28264 I IJKMEDIA: SDL_RunThread: [28264] ff_read
+07-22 11:47:21.564 27790 28263 I IJKMEDIA: SDL_RunThread: [28263] ff_vout
+07-22 11:47:21.564 27790 28264 W IJKMEDIA: remove 'timeout' option for rtmp.
+07-22 11:47:21.571 27790 28264 I IJKMEDIA: tcp did open uri = tcp://192.168.42.1:554?timeout=0, ip = 
+07-22 11:47:21.587 27790 28264 E IJKMEDIA: Option ijkapplication not found.
+07-22 11:47:21.587 27790 28262 D IJKMEDIA: FFP_MSG_OPEN_INPUT:
+07-22 11:47:23.006 27790 28264 I IJKMEDIA: max_frame_duration: 10.000
+07-22 11:47:23.006 27790 28264 I IJKMEDIA: Input #0, rtsp, from 'rtsp://192.168.42.1/ch0/stream0':
+07-22 11:47:23.006 27790 28264 I IJKMEDIA:   Metadata:
+07-22 11:47:23.006 27790 28264 I IJKMEDIA:     title           : 
+07-22 11:47:23.006 27790 28264 I IJKMEDIA: Ambarella streaming
+07-22 11:47:23.006 27790 28264 I IJKMEDIA: 
+07-22 11:47:23.006 27790 28264 I IJKMEDIA:     comment         : 
+07-22 11:47:23.006 27790 28264 I IJKMEDIA: Ambarella streaming
+07-22 11:47:23.006 27790 28262 D IJKMEDIA: FFP_MSG_FIND_STREAM_INFO:
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA:   Duration: 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: N/A
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: , start: 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 0.580222
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: , bitrate: 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: N/A
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA:     Stream #0:0
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: : Video: h264, yuvj420p(pc, bt709, progressive), 720x720 [SAR 1:1 DAR 1:1]
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: , 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 25 fps, 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 25 tbr, 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 90k tbn, 
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 50 tbc
+07-22 11:47:23.007 27790 28264 I IJKMEDIA: 
+07-22 11:47:23.010 27790 28264 I IJKMEDIA: ijkplayer: trying MediaCodec decoder (mediacodec_all_videos=0, avc=1, hevc=0, mpeg2=0)
+07-22 11:47:23.010 27790 28264 D IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec()
+07-22 11:47:23.010 27790 28264 I IJKMEDIA: API-Level: 36
+07-22 11:47:23.010 27790 28264 I IJKMEDIA: ffpipenode_create_video_decoder_from_android_mediacodec: MediaCodec: H264_MAIN: enabled
+07-22 11:47:23.010 27790 28264 I IJKMEDIA: AMediaFormat: video/avc, 720x720
+07-22 11:47:23.010 27790 28264 D IJKMEDIA: SDL_AMediaFormatJava_createVideoFormat
+07-22 11:47:23.010 27790 28264 E IJKMEDIA: csd-0: naked
+07-22 11:47:23.010 27790 28264 I IJKMEDIA: amc: rotate notify: 0
+07-22 11:47:23.010 27790 28264 D IJKMEDIA: ffpipeline_select_mediacodec_l
+07-22 11:47:23.010 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_ROTATION_CHANGED: 0
+07-22 11:47:23.046 27790 28264 I IjkMediaCodecInfo:  Unknown Profile Level 0 (524288,262144)
+07-22 11:47:23.046 27790 28264 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 11:47:23.046 27790 28264 I IjkMediaCodecInfo:  Unknown Profile Level 52 (524288,65536)
+07-22 11:47:23.047 27790 28264 E IJKMEDIA: mediacodec_select_callback: onSelectCodec failed, trying fallback
+07-22 11:47:23.047 27790 28264 I IJKMEDIA: mediacodec_select_fallback: fallback found codec: c2.exynos.h264.decoder
+07-22 11:47:23.047 27790 28264 D IJKMEDIA: SDL_AMediaCodecJava_createByCodecName
+07-22 11:47:23.077 27790 28264 D IJKMEDIA: SDL_AMediaCodecJava_init
+07-22 11:47:23.077 27790 28264 D IJKMEDIA: SDL_AMediaCodec_increaseReference(): ref=1
+07-22 11:47:23.077 27790 28264 D IJKMEDIA: SDL_AMediaCodecJava_configure_surface
+07-22 11:47:23.077 27790 28264 E IJKMEDIA: configure acodec:0x3692 format:0x3712: surface:0x36ce
+07-22 11:47:23.079 27790 28264 E MediaCodec: Media Quality Service not found.
+07-22 11:47:23.080 27790 28292 I MediaCodec: [c2.exynos.h264.decoder] setting surface generation to 28456961
+07-22 11:47:23.082 27790 28264 D IJKMEDIA: SDL_AMediaCodecJava_start
+07-22 11:47:23.108 27790 28292 I MediaCodec: setCodecState state(0), called in 6, domain 1, 1
+07-22 11:47:23.108 27790 28264 I IJKMEDIA: reconfigure_codec_l:new acodec: 0xb400007644a8a330
+07-22 11:47:23.108 27790 28264 D IJKMEDIA: SDL_AMediaCodec_increaseReference(): ref=2
+07-22 11:47:23.108 27790 28264 I IJKMEDIA: VideoCodec: MediaCodec, c2.exynos.h264.decoder
+07-22 11:47:23.108 27790 28264 I IJKMEDIA: ijkplayer: using MediaCodec decoder successfully
+07-22 11:47:23.109 27790 28264 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 11:47:23.109 27790 28264 W IJKMEDIA: fps: 25.000000 (normal)
+07-22 11:47:23.109 27790 28264 I IJKMEDIA: ijkplayer: no_sync mode enabled, buffer limits: max_buffer_size=256KB, min_frames=2, hwm=50ms
+07-22 11:47:23.109 27790 28307 I IJKMEDIA: SDL_RunThread: [28307] ff_video_dec
+07-22 11:47:23.109 27790 28262 D IJKMEDIA: FFP_MSG_COMPONENT_OPEN:
+07-22 11:47:23.109 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 11:47:23.109 27790 28262 D IJKMEDIA: FFP_MSG_SAR_CHANGED: 1, 1
+07-22 11:47:23.109 27790 28262 D IJKMEDIA: ijkmp_get_msg: FFP_MSG_PREPARED
+07-22 11:47:23.109 27790 28262 D IJKMEDIA: FFP_MSG_PREPARED:
+07-22 11:47:23.109 27790 28308 I IJKMEDIA: SDL_RunThread: [28308] amediacodec_input_thread
+07-22 11:47:23.109 27790 27790 D IJKMEDIA: IjkMediaPlayer_start
+07-22 11:47:23.109 27790 27790 D IJKMEDIA: ijkmp_start()
+07-22 11:47:23.109 27790 27790 D IJKMEDIA: ijkmp_start()=0
+07-22 11:47:23.110 27790 28262 D IJKMEDIA: ijkmp_get_msg: FFP_REQ_START
+07-22 11:47:23.210 27790 28308 D IJKMEDIA: ffpipeline_set_surface_need_reconfigure_l(0)
+07-22 11:47:23.210 27790 28308 I IJKMEDIA: feed_input_buffer: same surface, reuse previous surface
+07-22 11:47:23.455 27790 28307 I IJKMEDIA: SDL_AMediaCodecJava_dequeueOutputBuffer: INFO_OUTPUT_FORMAT_CHANGED
+07-22 11:47:23.455 27790 28307 I IJKMEDIA: AMEDIACODEC__INFO_OUTPUT_FORMAT_CHANGED
+07-22 11:47:23.456 27790 28307 D IJKMEDIA: SDL_AMediaFormatJava_init
+07-22 11:47:23.458 27790 28307 E IJKMEDIA: SDL_AMediaFormatJava_getInt32: CallIntMethod: failed
+07-22 11:47:23.459 27790 28307 E IJKMEDIA: SDL_AMediaFormatJava_getInt32: CallIntMethod: failed
+07-22 11:47:23.459 27790 28307 I IJKMEDIA: AMEDIACODEC__INFO_OUTPUT_FORMAT_CHANGED
+07-22 11:47:23.459 27790 28307 I IJKMEDIA:     width-height: (720 x 720)
+07-22 11:47:23.459 27790 28307 I IJKMEDIA:     color-format: (FormatSurface: 0x7f000789)
+07-22 11:47:23.459 27790 28307 I IJKMEDIA:     stride:       (0)
+07-22 11:47:23.459 27790 28307 I IJKMEDIA:     slice-height: (0)
+07-22 11:47:23.459 27790 28307 I IJKMEDIA:     crop:         (0, 0, 719, 719)
+07-22 11:47:23.459 27790 28307 D IJKMEDIA: SDL_VoutAMediaCodec_CreateOverlay(w=720, h=720, fmt=_AMC vout=0xb400007704ac2360)
+07-22 11:47:23.459 27790 28307 D IJKMEDIA: Video: first frame decoded
+07-22 11:47:23.459 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 11:47:23.460 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_DECODED_START:
+07-22 11:47:23.460 27790 28292 I MediaCodec: setCodecState state(1), called in 6, domain 1, 1
+07-22 11:47:23.460 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_RENDERING_START:
+07-22 11:47:23.495 27790 28307 D IJKMEDIA: SDL_VoutAMediaCodec_CreateOverlay(w=720, h=720, fmt=_AMC vout=0xb400007704ac2360)
+07-22 11:47:23.496 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 11:47:23.531 27790 28262 D IJKMEDIA: FFP_MSG_VIDEO_SIZE_CHANGED: 720, 720
+07-22 11:47:23.531 27790 28307 D IJKMEDIA: SDL_VoutAMediaCodec_CreateOverlay(w=720, h=720, fmt=_AMC vout=0xb400007704ac2360)
