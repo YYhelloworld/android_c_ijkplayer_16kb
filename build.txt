@@ -1,0 +1,28 @@
+## 译步骤
+### 前置条件
+- macOS + Android Studio
+- NDK 28（路径： ~/Library/Android/sdk/ndk/28.0.13004108 ）
+- 源码目录： ~/Downloads/ijkplayer-16k-master
+
+
+步骤 1：编译 FFmpeg（首次或 FFmpeg 源码改动后）
+
+export ANDROID_NDK=/Users/js/Library/Android/sdk/ndk/28.0.13004108
+export ANDROID_SDK=/Users/js/Library/Android/sdk
+cd /Users/js/Downloads/ijkplayer-16k-master/android
+./compile-ffmpeg.sh arm64
+
+步骤 2：编译 ijkplayer native 库
+export ANDROID_NDK=/Users/js/Library/Android/sdk/ndk/28.0.13004108
+export ANDROID_SDK=/Users/js/Library/Android/sdk
+cd /Users/js/Downloads/ijkplayer-16k-master/android
+./compile-ijk.sh arm64 rebuild
+
+rebuild 参数会先清理再编译，确保用最新代码。只改了 ff_ffplay.c 和 ijkplayer_jni.c 的情况下约 2-3 分钟完成。
+
+步骤 3：输出文件位置
+
+android/ijkplayer/ijkplayer-arm64/src/main/libs/arm64-v8a/
+├── libijkffmpeg.so    (4MB)
+├── libijkplayer.so    (599KB)
+└── libijksdl.so       (414KB)
